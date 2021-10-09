@@ -1,0 +1,16 @@
+                
+def main():
+    hallo = input('Voer een bestand in dat je wilt openen ')
+    hoi = open(hallo ,'r')
+    line1 = hoi.readline()
+    line2 = hoi.readline()
+    line3 = hoi.readline()
+    line4 = hoi.readline()
+    line5 = hoi.readline()
+    hoi.close()
+    print(line1)
+    print(line2)
+    print(line3)
+    print(line4)
+    print(line5)
+main()
